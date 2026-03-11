@@ -72,8 +72,7 @@
     },
     "idioma": [
         "Portugues - Nativo",
-        "Ingles - Basico",
-        "Espanhol - Basico"
+        "Ingles - Basico"
     ],
     "educacao": [
         {
@@ -102,6 +101,12 @@
         }
     ],
     "portfolio": [
+        {
+            "nome":"Portfólio Giliano G. Novais",
+            "descricao":"Projeto de Portfólio dinâmico desenvolvido em JavaScript",
+            "linkar":"https://github.com/GilianoGN/Portfolio.git",
+            "plataforma":"github"
+        },
         {
             "nome":"PokéDex 2026",
             "descricao":"PodéDex personalizada",
