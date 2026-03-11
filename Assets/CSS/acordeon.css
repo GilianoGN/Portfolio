@@ -1,0 +1,307 @@
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid white;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+
+.acordeon .btn {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    border: none;
+}
+
+.acordeon .btn::after {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    align-self: center;
+    background-image: url('/Assets/image/arrow2.svg');
+    transition: 0.25s;
+}
+
+.acordeon .btn:hover {
+    cursor: pointer;
+}
+
+.acordeon.open,
+.acordeon:hover {
+    background-color: rgb(146, 146, 146);
+    border-color: rgb(146, 146, 146);
+}
+
+.acordeon.open .btn::after {
+    transform: rotate(180deg);
+}
+
+.acordeon .content {
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+
+.acordeon.open .content {
+    display: inline-block;
+/*    padding: 0 1rem 1rem 1rem;*/
+}
+
+.acordeon .idioma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.acordeon .idioma li {
+    padding: 1rem;
+}
+
+.acordeon .idioma li::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 1rem;
+    margin-right: .5rem;
+    align-self: center;
+    background-image: url('/Assets/image/check.svg');
+    transition: 0.25s;
+}
+
+.acordeon .portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    list-style: none;
+}
+
+.acordeon .portfolio li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+.acordeon .portfolio li .title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.acordeon .portfolio li .github::before {
+    content: '';
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    align-self: center;
+    background-image: url('/Assets/image/github.svg');
+    transition: 0.25s;
+}
+
+.acordeon .portfolio li .linkedin::before {
+    content: '';
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    align-self: center;
+    background-image: url('/Assets/image/linkedin.svg');
+    transition: 0.25s;
+}
+
+.acordeon .portfolio li a:hover {
+    text-decoration: underline;
+}
+
+.acordeon .education {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    list-style: none;
+}
+
+.acordeon .education li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+.acordeon .education li .title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.acordeon .education li p {
+    margin-bottom: 0.5rem;
+}
+
+.acordeon .experiencie {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    list-style: none;
+}
+
+.acordeon .experiencie li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+.acordeon .experiencie li .title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.acordeon .experiencie li .company {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.acordeon .experiencie li p {
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+
+.acordeon .experiencie li .period::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    align-self: center;
+    background-image: url('/Assets/image/calendar.svg');
+    transition: 0.25s;
+}
+
+.acordeon .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.acordeon .professional {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 0;
+    list-style: none;
+}
+
+.acordeon .professional ul {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.acordeon .professional li {
+    display:inline;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.5rem;
+}
+
+.acordeon .professional h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.acordeon .professional .hardSkill {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    align-self: center;
+    transition: 0.25s;
+}
+
+.acordeon .personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 0;
+}
+
+.acordeon .personal ul {
+    display:inline;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+.acordeon .personal h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.acordeon .personal li {
+    padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .acordeon .btn {
+        font-size: 1.25rem;
+    }
+
+    .acordeon .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .acordeon .professional {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .acordeon .personal {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .acordeon .professional li::before {
+        width: 4rem;
+        height: 4rem;
+    }
+}

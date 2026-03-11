@@ -1,0 +1,180 @@
+{
+    "name":"Giliano G. Novais",
+    "photo":"https://avatars.githubusercontent.com/u/151570021?v=4",
+    "titulo":"Desenvolvedor Java Back-end / Fullstack Angular",
+    "localidade":{
+        "cidade":"São Gonçalo",
+        "estado":"Rio de Janeiro",
+        "pais":"Brasil"
+    },
+    "telefone":"(21) 9 9378-7407",
+    "email":"vipergiliano@gmail.com",
+    "linkedin":"https://www.linkedin.com/in/dev-giliano-gomes-novais",
+    "skills": {
+        "hardSkills": [
+            { 
+                "nome":"Java",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+            },
+            { 
+                "nome":"Spring Boot",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+            },
+            { 
+                "nome":"C#",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+            },
+            { 
+                "nome":"Angular",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+            },
+            { 
+                "nome":"JavaScript",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            },
+            { 
+                "nome":"NodeJS",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+            },
+            { 
+                "nome":"React Native",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg"
+            },
+            { 
+                "nome":"MySQL",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+            },
+            { 
+                "nome":"MongoDB",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+            },
+            { 
+                "nome":"HTML5",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+            },
+            { 
+                "nome":"CSS3",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+            },
+            { 
+                "nome":"TypeScript",
+                "logo":"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+            }
+        ],
+        "softSkills": [
+            "Comunicação",
+            "Trabalho em equipe",
+            "Organização",
+            "Dinâmico",
+            "Pensamento crítico",
+            "Inteligência emocinal"
+        ]
+    },
+    "idioma": [
+        "Portugues - Nativo",
+        "Ingles - Basico",
+        "Espanhol - Basico"
+    ],
+    "educacao": [
+        {
+            "curso": "Análise e Desenvolvimento de Sistemas",
+            "instituicao": "Anhanguera Educacional",
+            "periodo":"de 2025 a 2027",
+            "condicao": "Cursando"
+        },
+        {
+            "curso": "Técnico em AutoCAD",
+            "instituicao": "DesckGraphic (Autorizada AutoDesk",
+            "periodo":"em 2004",
+            "condicao": "Concluido"
+        },
+        {
+            "curso": "Licenciatura em Matemática",
+            "instituicao": "Universidade do Estado do Rio de Janeiro (UERJ)",
+            "periodo":"de 2001 a 2008",
+            "condicao": "trancado"
+        },
+        {
+            "curso": "Técnico em Estruturas Navais",
+            "instituicao": "Escola Técnica Estadual Henrique Laje",
+            "periodo":"de 1997 a 1999",
+            "condicao": "Concluido"
+        }
+    ],
+    "portfolio": [
+        {
+            "nome":"PokéDex 2026",
+            "descricao":"PodéDex personalizada",
+            "linkar":"https://github.com/GilianoGN/PokeDex.git",
+            "plataforma":"github"
+        },
+        {
+            "nome":"Arkanoid",
+            "descricao":"Projeto Arkanoid - Um jogo clássico recriado com LibGDX e Java",
+            "linkar":"https://github.com/GilianoGN/Projeto_Arkanoid.git",
+            "plataforma":"github"
+        },
+        {
+            "nome":"PSStore em Angular",
+            "descricao":"Projeto de close da pagina da PSStore",
+            "linkar":"https://github.com/GilianoGN/App-PSStore-Angular.git",
+            "plataforma":"github"
+        },
+        {
+            "nome":"Buzz Feed de animes em Angular",
+            "descricao":"Projeto de jogo de quiz de animes (modelo Buzz Feed)",
+            "linkar":"https://github.com/GilianoGN/App-Buzzfeed-Angular.git",
+            "plataforma":"github"
+        },
+        {
+            "nome":"HBO Max Interface em CSS",
+            "descricao":"Projeto de clone da pagina da HBO Max",
+            "linkar":"https://github.com/GilianoGN/TrilhaCSSModulo5.git",
+            "plataforma":"github"
+        },
+        {
+            "nome":"Enciclopedia Chrono Trigger em HTML e CSS",
+            "descricao":"Projeto de clone da wikipedia de Chrono Trigger",
+            "linkar":"https://github.com/GilianoGN/TrilhaHTMLModulo3.git",
+            "plataforma":"github"
+        },
+        {
+            "nome":"Gerenciador de Tarefas",
+            "descricao":"Projeto da trilha .NET - Sistema de gerenciamento de tarefas",
+            "linkar":"https://github.com/GilianoGN/TrilhaNetApiDesafio.git",
+            "plataforma":"github"
+        },
+        {
+            "nome":"Sistema de Gerenciamento de Veículos e Administradores",
+            "descricao":"Projeto de Minimal API de Sistema de Gerenciamento.",
+            "linkar":"https://github.com/GilianoGN/MinimalAPI_ASP.NET.git",
+            "plataforma":"github"
+        }
+    ],
+    "experiencia": [
+        {
+            "funcao": "Técnico de Planejamento Pleno",
+            "empresa": "2F Manutenção Ltda (ArTIG Group)",
+            "periodo": "Set de 2025 - Fev de 2026",
+            "descricao":"Desenvolver e Manter Cronogramas Mestre e Detalhados de cada projeto sob encomenda. Aplicar EAP (Estrutura Analítica do Projeto) e identificar o Caminho Crítico para cada componente offshore, utilizando os dados de estrutura e roteiro do produto no ERP para garantir o controle de escopo e prazo. Realizar Nivelamento de Recursos (mão de obra, máquinas) entre projetos simultâneos. Apoiar a Melhoria Contínua ao analisar os dados históricos do ERP para identificar gargalos e propor ajustes nos procedimentos de fabricação e planejamento."
+        },
+        {
+            "funcao": "Técnico de Planejamento Pleno",
+            "empresa": "Engevale Engenharia S.A.",
+            "periodo": "Dez de 2024 - Jan de 2025",
+            "descricao":"Responsável pela elaboração de cronogramas, organogramas, relatórios e RDO’s das obras na fábrica de aço da Ternium. Realizando o acompanhamento físico das obras e dando suporte as equipes de manutenção."
+        },
+        {
+            "funcao": "Técnico de Planejamento Pleno",
+            "empresa": "Vinci Engenharia Ltda.",
+            "periodo": "Mai de 2023 - Jul de 2024",
+            "descricao":"Responsável pelos boletins de medição 'BM' das obras executadas e pela analise e avaliação dos Relatórios Diários de Obra RDO's."
+        },
+        {
+            "funcao": "Coordenador de Planejamento",
+            "empresa": "FH Montagem e Manutenção Industrial Ltda.",
+            "periodo": "Abr de 2021 - Mai de 2023",
+            "descricao":"Responsável pelo planejamento (elaboração de cronogramas, histogramas, organogramas, relatórios e RDO’s), acompanhamento físico das obras e suporte na montagem e manutenção de equipamentos em geral na fábrica de aço da Ternium."
+        }
+    ]
+}

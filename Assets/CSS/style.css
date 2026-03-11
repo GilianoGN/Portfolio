@@ -1,0 +1,136 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: 
+    linear-gradient( 120deg, 
+      transparent 0%,
+      #000315 25%, 
+      #000315 75%, 
+      transparent 100%
+    ),
+    linear-gradient( 70deg, 
+      #70c403 0%, 
+      #70c403 25%, 
+      #000db8 50%, 
+      #6f0185 75%,
+      #6f0185 100%
+    );
+    background-attachment: fixed;
+    justify-items: center;
+}
+
+.main {
+    margin: .5rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .photo {
+    width: 200px;
+    height: 200px;
+    margin: 0 100px;
+    border-radius: 50%;
+}
+
+.header .title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    display: flex;
+    flex-direction: row;
+    margin: .5rem;
+    font-size: 1.125rem;
+}
+
+.information p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+    align-self: center;
+}
+
+.information .job::before {
+    background-image: url('/Assets/image/Avatar.svg');
+}
+
+.information .location::before {
+    background-image: url('/Assets/image/Localizacao.svg');
+}
+
+.information .email::before {
+    background-image: url('/Assets/image/email.svg');
+}
+
+.information .phone::before {
+    background-image: url('/Assets/image/telefone.svg');
+}
+
+.information .linkedin::before {
+    background-image: url('/Assets/image/linkedin.svg');
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: 
+            linear-gradient( 140deg, 
+                transparent 0%,
+                #000315 25%, 
+                #000315 75%, 
+                transparent 100%
+            ),
+            linear-gradient( 30deg, 
+                #70c403 0%, 
+                #70c403 25%, 
+                #000db8 50%, 
+                #6f0185 75%,
+                #6f0185 100%
+        );
+    }
+
+    .header {
+        display: grid;
+        grid-template-areas:
+        "photo title"
+        "photo information";
+    }
+
+    .header .photo {
+        grid-area: photo;
+        margin: 0 100px;
+    }
+
+    .header .title {
+        grid-area: title;
+        margin-right: 100px;
+    }
+
+    .header .information {
+        grid-area: information;
+        
+    }
+
+    .main {
+        max-width: 1024px;
+        margin: 2 auto;
+    }
+}
