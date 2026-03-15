@@ -2,7 +2,7 @@
 ![tela principal](./Assets/image/imagem01.jpg)
 ![tela skills](./Assets/image/imagem03.jpg)
 
-Este é um projeto de Portfólio Dinâmico desenvolvido para consolidar e exibir minhas competências como desenvolvedor, unindo minha sólida bagagem em planejamento técnico à tecnologia moderna de software. O diferencial deste projeto é que todo o conteúdo é alimentado dinamicamento por uma "API local" em JSON.
+Este é um projeto de Portfólio Dinâmico desenvolvido para consolidar e exibir minhas competências como desenvolvedor, unindo minha sólida bagagem em planejamento técnico à tecnologia moderna de software. O diferencial deste projeto é que todo o conteúdo é alimentado dinamicamente por uma "API local" em JSON.
 
 ## 🚀 Tecnologia Utilizadas
 * __HTML5__: Estruturação semântica de dados.
