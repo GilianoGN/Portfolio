@@ -102,6 +102,12 @@
     ],
     "portfolio": [
         {
+            "nome":"Beer Stock API",
+            "descricao":"Projeto de Gerenciador de Estoque de Cervejas, com JUnit, Mockito MockMvc",
+            "linkar":"https://github.com/GilianoGN/beerstock.git",
+            "plataforma":"github"
+        },
+        {
             "nome":"Portfólio Giliano G. Novais",
             "descricao":"Projeto de Portfólio dinâmico desenvolvido em JavaScript",
             "linkar":"https://github.com/GilianoGN/Portfolio.git",
