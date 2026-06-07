@@ -25,6 +25,36 @@ function updateProfileInfo(profileData){
     linkedin.href = profileData.linkedin;
 }
 
+function updateAbout(profileData) {
+    const aboutParagrafos = document.getElementById("profile.aboutParagrafos");
+    if (aboutParagrafos && profileData.about && profileData.about.descricao) {
+        const desc = profileData.about.descricao;
+        aboutParagrafos.innerHTML = Object.values(desc).map(paragrafo => {
+            if (paragrafo.includes("O que trago")) {
+                return `<p style="font-weight: 700; margin-top: 1rem; margin=bottom: 0.5rem;">${paragrafo}</p>`
+            } else {
+                return `<p style="margin-bottom: 1rem; text-align: justify; line-height: 1.5;">${paragrafo}</p>`;
+            }
+        }).join('');
+    }
+
+    const aboutPerfis = document.getElementById("profile.aboutPerfis");
+    if (aboutPerfis && profileData.about) {
+        // Filtra as chaves do objeto para pegar apenas as que começam com "perfil"
+        const chavesPerfil = Object.keys(profileData.about).filter(key => key.startsWith('perfil'));
+        
+        aboutPerfis.innerHTML = chavesPerfil.map(chave => {
+            const perfil = profileData.about[chave];
+            return `
+                <li style="margin-bottom: 1rem; list-style-type: none; line-height: 1.5; text-align: justify;">
+                    <strong>${perfil.titulo}</strong> ${perfil.texto}
+                </li>
+            `;
+        }).join('');
+    }
+}
+
+
 function updateSoftSkills(profileData){
     const softSkills = document.getElementById("profile.softSkills");
     softSkills.innerHTML = profileData.skills.softSkills.map(skill =>
@@ -86,7 +116,8 @@ function updateExperience(profileData){
     if (profiledata){
         console.log(profiledata);
         updateProfileInfo(profiledata);
-        updateSoftSkills(profiledata);   
+        updateAbout(profiledata);
+        updateSoftSkills(profiledata);
         updateHardSkills(profiledata);
         updateLinguage(profiledata);
         updateEducation(profiledata);

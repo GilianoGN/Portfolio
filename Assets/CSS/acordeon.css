@@ -261,12 +261,24 @@
     padding: 0;
 }
 
+.acordeon .personal1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+}
+
 .acordeon .personal ul {
     display:inline;
     flex-direction: row;
     justify-content: flex-start;
     margin: 0.5rem auto;
     text-align: center;
+
+    list-style: none;
+    padding-left: 0;
 }
 
 .acordeon .personal h2 {
@@ -274,6 +286,35 @@
     font-weight: 700;
     font-size: 1.25rem;
     margin-bottom: 1rem;
+}
+
+.acordeon .personal1 #profile\.aboutParagrafos p {
+text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+.acordeon .personal1 #profile\.aboutPerfis {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    text-align: left;
+}
+
+.acordeon .personal1 #profile\.aboutPerfis li {
+    display: list-item;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.acordeon .personal1 #profile\.aboutPerfis li strong {
+    color: #caf593;
+    display: inline;
 }
 
 .acordeon .personal li {

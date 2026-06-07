@@ -10,6 +10,29 @@
     "telefone":"(21) 9 9378-7407",
     "email":"vipergiliano@gmail.com",
     "linkedin":"https://www.linkedin.com/in/dev-giliano-gomes-novais",
+    "about":{
+        "descricao": {
+            "paragrafo1":"Mais do que uma transição de carreira, o meu momento atual é uma convergência de caminhos. Lido com computadores e tecnologia desde a infância e, agora, aos 45 anos, direciono 100% da minha energia e foco profissional para o desenvolvimento de software.",
+            "paragrafo2":"Durante anos, atuei no mercado técnico e corporativo como Projetista Naval e na Coordenação de Planejamento no Setor Industrial, com formação de Técnico em Estruturas Navais. Essa longa vivência me permitiu lapidar competências que vão muito além da escrita de código.",
+            "paragrafo3":"O que trago para a tecnologia:"
+        },
+        "perfil1": {
+            "titulo":"Pensamento Crítico e Resolução de Problemas:",
+            "texto":"Décadas lidando com a precisão técnica de projetos e a complexidade industrial me deram uma forte base analítica para identificar gargalos e desenhar soluções lógicas eficazes."
+        },
+        "perfil2": {
+            "titulo":"Gestão de Prazos e Organização:",
+            "texto":"Minha experiência em Coordenação de Planejamento me ensinou a trabalhar sob pressão, mitigar riscos e garantir que entregas complexas sejam feitas com previsibilidade e qualidade."
+        },
+        "perfil3": {
+            "titulo":"Excelente Relacionamento Interpessoal e Comunicação:",
+            "texto":"Habituado a mediar demandas e colaborar com equipes multidisciplinares, trago facilidade para integrar times, ouvir ativamente e alinhar requisitos técnicos aos objetivos do negócio."
+        },
+        "perfil4": {
+            "titulo":"Maturidade e Resiliência:",
+            "texto":"Uma postura profissional sólida, inteligência emocional e uma capacidade cultivada de adaptação rápida a novos cenários e desafios."
+        }
+    },
     "skills": {
         "hardSkills": [
             { 
@@ -101,6 +124,18 @@
         }
     ],
     "portfolio": [
+        {
+            "nome":"Extensão Formula Fácil",
+            "descricao":"Uma extensão desenvolvida para o **Google Chrome (Manifest v3)** projetada para facilitar o cálculo e a compreensão conceitual de equações da física. A ferramenta permite que estudantes e profissionais simulem variáveis ​​em tempo real, visualizem gráficos de comportamento e recebam explicações acadêmicas personalizadas, impulsionadas por **IA Generativa**.",
+            "linkar":"https://github.com/GilianoGN/extensao_formula_facil.git",
+            "plataforma":"github"
+        },
+        {
+            "nome":"Assistende de IA para Orçamento",
+            "descricao":"Assistente de IA para Orçamento - Spring AI e Groq Cloud. Uma aplicação Spring Boot 3.4+ projetada sob os princípios da Arquitetura Limpa que atua como um assistente financeiro inteligente por voz. ",
+            "linkar":"https://github.com/GilianoGN/budgeting.git",
+            "plataforma":"github"
+        },
         {
             "nome":"Beer Stock API",
             "descricao":"Projeto de Gerenciador de Estoque de Cervejas, com JUnit, Mockito MockMvc",
